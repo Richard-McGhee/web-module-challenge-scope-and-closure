@@ -28,10 +28,15 @@ function processFirstItem(stringList, callback) {
  * 
  * 1. What is the difference between counter1 and counter2?
  * 
+ * Counter 1 uses a closure to create a new private variable which allows it to be used with other variables and track seperately. Counter 2 simply increments without using a return or allowing you to increment seperately.
+ * 
  * 2. Which of the two uses a closure? How can you tell?
+ * 
+ * Counter 1, because it uses a function after the first return to run a child function after the parent has terminated
  * 
  * 3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
  *
+ * When multiple types of counters need to be used simultaneously. When there only needs to be 1 counter, for simplicity.
 */
 
 // counter1 code
