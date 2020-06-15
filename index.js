@@ -19,7 +19,6 @@ function processFirstItem(stringList, callback) {
 }
 
 // ⭐️ Example Challenge END ⭐️
-console.log("hi");
 
 ///// M V P ///////
 
@@ -68,10 +67,10 @@ function inning(innNum){
     let score = Math.floor(Math.random() * Math.floor(3));
     gameScore += score
   }
-  return `Inning ${innNum} Score ${gameScore}`;
+  return gameScore;
 } 
 
-// inning(1);
+// console.log(inning(1));
 
 /* Task 3: finalScore()
 
@@ -118,8 +117,26 @@ and returns the score at each pont in the game, like so:
 
 Final Score: 6 - 10 */
 
-function scoreboard(/* CODE HERE */) {
-  /* CODE HERE */
+function scoreboard(inning, innNum) {
+  let currentScore = 0;
+  let currentScore2 = 0;
+  if(innNum === 1){
+    return console.log(`1st inning ${currentScore += inning(innNum)} - ${currentScore2 += inning(innNum)}`)
+  } else if(innNum === 2){
+    console.log(`1st inning ${currentScore += inning(innNum - 1)} - ${currentScore2 += inning(innNum - 1)}`)
+    return console.log(`2nd inning ${currentScore += inning(innNum - 1)} - ${currentScore2 += inning(innNum - 1)}`)
+  }else if(innNum === 3){
+    console.log(`1st inning ${currentScore += inning(innNum - 2)} - ${currentScore2 += inning(innNum - 2)}`)
+    console.log(`2nd inning ${currentScore += inning(innNum - 2)} - ${currentScore2 += inning(innNum - 2)}`)
+    return console.log(`3rd inning ${currentScore += inning(innNum -2)} - ${currentScore2 += inning(innNum - 2)}`)
+  }else if(innNum === 4){
+    console.log(`1st inning ${currentScore += inning(innNum - 3)} - ${currentScore2 += inning(innNum - 3)}`)
+    console.log(`2nd inning ${currentScore += inning(innNum - 3)} - ${currentScore2 += inning(innNum - 3)}`)
+    console.log(`3rd inning ${currentScore += inning(innNum -3)} - ${currentScore2 += inning(innNum - 3)}`)
+    return console.log(`4th inning ${currentScore += inning(innNum -3)} - ${currentScore2 += inning(innNum - 3)}`)
+  }
 }
+
+scoreboard(inning, 4);
 
 
