@@ -42,6 +42,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+Closure it what protects code from being unintentionally changed. It does this by closing off codes in certain scopes.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +66,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+Inside of both functions there is closure.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+
+The function inside personalDice will always be the same but the diceroll is able to change. 
+
+c. What is the lexical scope of `newRoll`?
+
+
 
 ### Task 3 - Stretch Goals
 
