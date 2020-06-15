@@ -75,7 +75,7 @@ The function inside personalDice will always be the same but the diceroll is abl
 
 c. What is the lexical scope of `newRoll`?
 
-
+It can access things, like variables, outside of its scope but it cannot be accessed by things from the outside of its scope because it's enclosed within a function.
 
 ### Task 3 - Stretch Goals
 
