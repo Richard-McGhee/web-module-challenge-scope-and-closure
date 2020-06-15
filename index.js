@@ -180,6 +180,6 @@ function scoreboard(inning, innNum) {
   }
 }
 
-scoreboard(inning, 11);
+scoreboard(inning, 9);
 
 
