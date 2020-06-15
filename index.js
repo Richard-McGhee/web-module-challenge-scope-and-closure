@@ -134,9 +134,52 @@ function scoreboard(inning, innNum) {
     console.log(`2nd inning ${currentScore += inning(innNum - 3)} - ${currentScore2 += inning(innNum - 3)}`)
     console.log(`3rd inning ${currentScore += inning(innNum -3)} - ${currentScore2 += inning(innNum - 3)}`)
     return console.log(`4th inning ${currentScore += inning(innNum -3)} - ${currentScore2 += inning(innNum - 3)}`)
+  }else if(innNum === 5){
+    console.log(`1st inning ${currentScore += inning(innNum - 4)} - ${currentScore2 += inning(innNum - 4)}`)
+    console.log(`2nd inning ${currentScore += inning(innNum - 4)} - ${currentScore2 += inning(innNum - 4)}`)
+    console.log(`3rd inning ${currentScore += inning(innNum -4)} - ${currentScore2 += inning(innNum - 4)}`)
+    console.log(`4th inning ${currentScore += inning(innNum -4)} - ${currentScore2 += inning(innNum - 4)}`)
+    return console.log(`5th inning ${currentScore += inning(innNum -4)} - ${currentScore2 += inning(innNum - 4)}`)
+  }else if(innNum === 6){
+    console.log(`1st inning ${currentScore += inning(innNum - 5)} - ${currentScore2 += inning(innNum - 5)}`)
+    console.log(`2nd inning ${currentScore += inning(innNum - 5)} - ${currentScore2 += inning(innNum - 5)}`)
+    console.log(`3rd inning ${currentScore += inning(innNum -5)} - ${currentScore2 += inning(innNum - 5)}`)
+    console.log(`4th inning ${currentScore += inning(innNum -5)} - ${currentScore2 += inning(innNum - 5)}`)
+    console.log(`5th inning ${currentScore += inning(innNum -5)} - ${currentScore2 += inning(innNum - 5)}`)
+    return console.log(`6th inning ${currentScore += inning(innNum -5)} - ${currentScore2 += inning(innNum - 5)}`)
+  }else if(innNum === 7){
+    console.log(`1st inning ${currentScore += inning(innNum - 6)} - ${currentScore2 += inning(innNum - 6)}`)
+    console.log(`2nd inning ${currentScore += inning(innNum - 6)} - ${currentScore2 += inning(innNum - 6)}`)
+    console.log(`3rd inning ${currentScore += inning(innNum -6)} - ${currentScore2 += inning(innNum - 6)}`)
+    console.log(`4th inning ${currentScore += inning(innNum -6)} - ${currentScore2 += inning(innNum - 6)}`)
+    console.log(`5th inning ${currentScore += inning(innNum -6)} - ${currentScore2 += inning(innNum - 6)}`)
+    console.log(`6th inning ${currentScore += inning(innNum -6)} - ${currentScore2 += inning(innNum - 6)}`)
+    return console.log(`7th inning ${currentScore += inning(innNum -6)} - ${currentScore2 += inning(innNum - 6)}`)
+  }else if(innNum === 8){
+    console.log(`1st inning ${currentScore += inning(innNum - 7)} - ${currentScore2 += inning(innNum - 7)}`)
+    console.log(`2nd inning ${currentScore += inning(innNum - 7)} - ${currentScore2 += inning(innNum - 7)}`)
+    console.log(`3rd inning ${currentScore += inning(innNum -7)} - ${currentScore2 += inning(innNum - 7)}`)
+    console.log(`4th inning ${currentScore += inning(innNum -7)} - ${currentScore2 += inning(innNum - 7)}`)
+    console.log(`5th inning ${currentScore += inning(innNum -7)} - ${currentScore2 += inning(innNum - 7)}`)
+    console.log(`6th inning ${currentScore += inning(innNum -7)} - ${currentScore2 += inning(innNum - 7)}`)
+    console.log(`7th inning ${currentScore += inning(innNum -7)} - ${currentScore2 += inning(innNum - 7)}`)
+    return console.log(`8th inning ${currentScore += inning(innNum -7)} - ${currentScore2 += inning(innNum - 7)}`)
+  }else if(innNum === 9){
+    console.log(`1st inning ${currentScore += inning(innNum - 8)} - ${currentScore2 += inning(innNum - 8)}`)
+    console.log(`2nd inning ${currentScore += inning(innNum - 8)} - ${currentScore2 += inning(innNum - 8)}`)
+    console.log(`3rd inning ${currentScore += inning(innNum -8)} - ${currentScore2 += inning(innNum - 8)}`)
+    console.log(`4th inning ${currentScore += inning(innNum -8)} - ${currentScore2 += inning(innNum - 8)}`)
+    console.log(`5th inning ${currentScore += inning(innNum -8)} - ${currentScore2 += inning(innNum - 8)}`)
+    console.log(`6th inning ${currentScore += inning(innNum -8)} - ${currentScore2 += inning(innNum - 8)}`)
+    console.log(`7th inning ${currentScore += inning(innNum -8)} - ${currentScore2 += inning(innNum - 8)}`)
+    console.log(`8th inning ${currentScore += inning(innNum -8)} - ${currentScore2 += inning(innNum - 8)}`)
+    console.log(`9th inning ${currentScore += inning(innNum -8)} - ${currentScore2 += inning(innNum - 8)}`)
+    return console.log(`Final Score: ${currentScore} - ${currentScore2}`)
+  }else{
+    return console.log(`Invalid inning or data entry`)
   }
 }
 
-scoreboard(inning, 4);
+scoreboard(inning, 11);
 
 
