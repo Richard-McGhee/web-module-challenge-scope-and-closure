@@ -70,7 +70,7 @@ function inning(innNum){
   return gameScore;
 } 
 
-// console.log(inning(1));
+console.log(inning(1));
 
 /* Task 3: finalScore()
 
